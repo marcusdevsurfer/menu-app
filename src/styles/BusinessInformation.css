@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 .business-information-container {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: space-around;
     align-items: center;
