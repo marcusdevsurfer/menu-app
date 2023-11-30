@@ -1,0 +1,9 @@
+.business-information-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.opening-hours {
+   text-align: center;
+}
