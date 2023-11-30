@@ -8,5 +8,6 @@
 
 .navbar-logo {
     padding: 1rem;
-    width: 15vw;
+    width: 12vw;
+    border-radius: 15%;
 }
