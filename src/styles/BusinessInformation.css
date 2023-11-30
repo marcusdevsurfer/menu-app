@@ -1,12 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+@media (max-width: 640px) {
+
+    .business-information-container {
+        flex-direction: column;
+    }
+}
 
 .business-information-container {
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+.menu-title {
+    font-size: 1.8rem;
+    color: #65451F;
+}
+
 .opening-hours {
-   text-align: center;
+    text-align: center;
+}
+
+.opening-hours h3 {
+    font-size: 1.5rem;
+    color: #65451F;
+
+}
+
+.opening-hours p {
+    font-size: 1rem;
+    font-weight: 300;
 }
