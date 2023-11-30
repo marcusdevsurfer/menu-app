@@ -1,0 +1,12 @@
+.navbar-container {
+    width: 100vw;
+    height: auto;
+    background-color: #65451F;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-logo {
+    padding: 1rem;
+    width: 15vw;
+}
