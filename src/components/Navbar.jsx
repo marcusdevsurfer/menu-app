@@ -1,7 +1,10 @@
-import React from 'react'
+import '../styles/Navbar.css'
+import logo from '../assets/logo.png'
 
 export const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <div className='navbar-container'>
+        <img className='navbar-logo' src={logo} alt="" />
+    </div>
   )
 }
