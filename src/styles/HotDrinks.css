@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+@media (max-width: 640px) {
+    .hot-drinks-container {
+        flex-direction: column;
+    }
+}
+
+
+
+.hot-drinks-container {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hot-drinks-container h3 {
+    color: #65451F;
+}
+
+.hot-drinks-container ul {
+    list-style: none;
+}
+
+.hot-drinks-container li {
+    font-weight: 300;
+    text-decoration: none;
+}
