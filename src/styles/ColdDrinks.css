@@ -8,13 +8,13 @@
     }
 }
 
-
-
 .cold-drinks-container {
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content:space-around;
     align-items: center;
+    text-align: center;
+
     }
 
 .cold-drinks-container h3 {
@@ -24,6 +24,7 @@
 
 .cold-drinks-container ul {
     list-style: none;
+    padding : 0;
 
 }
 
