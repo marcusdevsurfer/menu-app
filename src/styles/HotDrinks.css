@@ -21,9 +21,9 @@
 
 .hot-drinks-container ul {
     list-style: none;
+    padding: 0;
 }
 
 .hot-drinks-container li {
     font-weight: 300;
-    text-decoration: none;
 }
