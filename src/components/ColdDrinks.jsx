@@ -7,12 +7,12 @@ import '../styles/ColdDrinks.css'
 export const ColdDrinks = () => {
     return (
         <div className='cold-drinks-container'>
-            <div>
+
+            <div className='cold-drinks-title-container'>
                 <h3>Bebidas frias</h3>
-
             </div>
-            <div>
 
+            <div className='cold-drinks-list-container'>
                 <ul>
                     {
                         menu.coldDrinks.map((e) => (
@@ -20,9 +20,7 @@ export const ColdDrinks = () => {
                         ))
                     }
                 </ul>
-
             </div>
-
 
         </div>
     )
