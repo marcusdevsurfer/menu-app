@@ -11,24 +11,30 @@
 .cold-drinks-container {
     font-family: 'Roboto', sans-serif;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
+}
 
-    }
+.cold-drinks-title-container{
+    width: 50vw;
 
-.cold-drinks-container h3 {
+}
+
+.cold-drinks-title-container h3 {
     color: #65451F;
-
 }
 
-.cold-drinks-container ul {
+.cold-drinks-list-container {
+    width: 50vw;
+}
+
+.cold-drinks-list-container ul {
     list-style: none;
-    padding : 0;
-
+    padding: 0;
 }
 
-.cold-drinks-container li {
+.cold-drinks-list-container li {
     font-weight: 300;
     text-decoration: none;
 }
