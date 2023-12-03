@@ -9,8 +9,17 @@ export const Paninis = () => {
       <div className="paninis-description-container">
         <h3>Paninis</h3>
         <p>{item1}</p>
+        <div className="paninis-products-container">
+          <ul>
+            {products.map(product => (
+              <li key={product.name}>{product.name} $<span>{product.price}</span></li>
+            ))}
+          </ul>
+        </div>
         <p>{item2}</p>
       </div>
+
+
 
       <section className="paninis-ingredients-section">
 
@@ -23,13 +32,7 @@ export const Paninis = () => {
           </ul>
         </div>
 
-        <div className="paninis-products-container">
-          <ul>
-            {products.map(product => (
-              <li key={product.name}>{product.name} $<span>{product.price}</span></li>
-            ))}
-          </ul>
-        </div>
+
 
       </section>
 
