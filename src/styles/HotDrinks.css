@@ -13,17 +13,25 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
+}
+.hot-drinks-title-container{
+    width: 50vw;
 }
 
-.hot-drinks-container h3 {
+.hot-drinks-title-container h3 {
     color: #65451F;
 }
 
-.hot-drinks-container ul {
+.hot-drinks-list-container {
+    width: 50vw;
+}
+
+.hot-drinks-list-container ul {
     list-style: none;
     padding: 0;
 }
 
-.hot-drinks-container li {
+.hot-drinks-list-container li {
     font-weight: 300;
 }
