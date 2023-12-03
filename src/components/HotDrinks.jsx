@@ -6,12 +6,12 @@ import '../styles/HotDrinks.css'
 export const HotDrinks = () => {
     return (
         <div className='hot-drinks-container'>
-            <div>
-                <h3>Bebidas calientes</h3>
 
+            <div className='hot-drinks-title-container'>
+                <h3>Bebidas calientes</h3>
             </div>
 
-            <div>
+            <div className='hot-drinks-list-container'>
                 <ul>
                     {
                         menu.hotDrinks.map((e) => (
@@ -20,7 +20,6 @@ export const HotDrinks = () => {
                     }
                 </ul>
             </div>
-
 
         </div>
     )
